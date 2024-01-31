@@ -1,9 +1,12 @@
 export async function uploadFileAnalyse(req: any, res: any, next: any) {
 	try {
-		console.log('insie upload file analyse');
-		console.log(req.body);
+		const { mimetype: type, size, originalname: name } = req.file;
 
-		res.status(200).json();
+		res.status(200).json({
+			name,
+			type,
+			size
+		});
 	} catch (error) {
 		console.log(error);
 		res.status(500).json({
