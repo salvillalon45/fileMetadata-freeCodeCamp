@@ -8,4 +8,6 @@ export const router = express.Router();
 
 // FILE UPLOAD
 // ----------------------------------------
+// upfile is the name used in the name attribute of the input tag in index.html!
+// <input id="inputfield" type="file" name="upfile" />
 router.post('/fileanalyse', upload.single('upfile'), uploadFileAnalyse);
