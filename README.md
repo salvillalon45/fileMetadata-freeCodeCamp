@@ -40,6 +40,9 @@ It has the folowing:
 
 ### Demo
 
+https://github.com/salvillalon45/fileMetadata-freeCodeCamp/assets/18276475/8a999d75-c4e1-4faf-be24-09245f8de637
+
+
 # Technologies:
 
 -   JavaScript
